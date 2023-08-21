@@ -15,8 +15,6 @@ cids_batch_size_test = 8
 cids_beta = 0.5
 cids_eps = 0.2
 
-obfuscate_secret_image = False
-
 # dataset
 crop_size_train = 256  # size for training
 resize_size_test = 512  # size for testing
@@ -30,13 +28,13 @@ save_freq = 50
 save_start_epoch = 1500
 model_dir = 'model_zoo'
 
-
 # Saving processed images
 save_processed_img = False
 img_save_dir = 'results/images'
 testset_name = 'div2k' #  the network-generated images will be saved in 'results/images/*net/testset_name/'
 suffix = 'png'
 
+obfuscate_secret_image = False
 
 test_cids_path = 'checkpoint_2960.pt'
 
