@@ -17,11 +17,15 @@ The official code for 'On Cover Independent Deep Neural Network Steganography'
 ## Get Started
 #### Dataset
 - Generating cover image set
-Run `python stable_diffusion.py`
 
-- training dataset: [DIV2K](https://opendatalab.com/DIV2K) training dataset
+  Run `python stable_diffusion.py`
+
+- training dataset:
+  
+  [DIV2K training dataset](https://opendatalab.com/DIV2K) 
+
 - testing datasets:
-1. [DIV2K](https://drive.google.com/file/d/1NYVWZXe0AjxdI5vuI2gF6_2hwoS1c4y7/view?usp=sharing) testing dataset
+1. [DIV2K testing dataset](https://drive.google.com/file/d/1NYVWZXe0AjxdI5vuI2gF6_2hwoS1c4y7/view?usp=sharing)
 2. [1000 images randomly selected from the COCO dataset](https://drive.google.com/file/d/1NYVWZXe0AjxdI5vuI2gF6_2hwoS1c4y7/view?usp=sharing) 
 3. 1000 images randomly selected from the CelebA dataset
 
