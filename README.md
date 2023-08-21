@@ -42,7 +42,7 @@ Run `python stable_diffusion.py`
 ## Dataset
 - The models are trained on the [DIV2K](https://opendatalab.com/DIV2K) training dataset, and the mini-batch size is set to 8. 
 - The trained models are tested on three test sets, including the DIV2K test dataset, 1000 images randomly selected from the COCO dataset and 1000 images randomly selected from the CelebA dataset
-- Here we provide the [test sets] of DIV2K and COCO (https://drive.google.com/file/d/1NYVWZXe0AjxdI5vuI2gF6_2hwoS1c4y7/view?usp=sharing).
+- Here we provide the [test sets](https://drive.google.com/file/d/1NYVWZXe0AjxdI5vuI2gF6_2hwoS1c4y7/view?usp=sharing) of DIV2K and COCO.
 
 
 ## Citation
