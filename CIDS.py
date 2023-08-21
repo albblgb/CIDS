@@ -22,7 +22,7 @@ model_save_path = os.path.join(c.model_dir, 'cids')
 mkdirs(model_save_path)
 
 mkdirs('results')
-logger_name = 'cids_trained_ON_div2k'
+logger_name = 'cids_trained_on_div2k'
 logger_info(logger_name, log_path=os.path.join('results', logger_name+'.log'))
 logger = logging.getLogger(logger_name)
 logger.info('#'*50)
