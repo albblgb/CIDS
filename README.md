@@ -20,24 +20,24 @@ The official code for 'On Cover Independent Deep Neural Network Steganography'
 
     `line4:  mode = 'train' ` 
 
-2. Run `python *net.py`, for example, `python wengnet.py`
+2. Run `python CIDS.py`
 
 #### Testing
 1. Change the code in `config.py`
 
     `line4:  mode = 'test' `
   
-    `line36-41:  test_*net_path = '' `
+    `line36-41:  test_cids_path = '' `
 
-2. Run `python *net.py`
+2. Run `python CIDS.py`
 
 - Here we provide [trained models](https://drive.google.com/drive/folders/1lM9ED7uzWYeznXSWKg4mgf7Xc7wjjm8Q?usp=sharing).
 - The processed images, such as stego image and recovered secret image, will be saved at 'results/images'
-- The training or testing log will be saved at 'results/*.log'
+- The training or testing log will be saved at 'results/cids_trained_ON_div2k.log'
 
 
 ## Dataset
-- The models are trained on the [DIV2K](https://opendatalab.com/DIV2K) training dataset, and the mini-batch size is set to 8, with half of the images randomly selected as the cover images and the remaining images as the secret images. 
+- The models are trained on the [DIV2K](https://opendatalab.com/DIV2K) training dataset, and the mini-batch size is set to 8. 
 - The trained models are tested on three test sets, including the DIV2K test dataset, 1000 images randomly selected from the ImageNet test dataset
 - Here we provide [test sets](https://drive.google.com/file/d/1NYVWZXe0AjxdI5vuI2gF6_2hwoS1c4y7/view?usp=sharing).
 
