@@ -1,9 +1,6 @@
 # CIDS
 The official code for 'On Cover Independent Deep Neural Network Steganography'
     
-#### List of reproduced papers
-- [Here](https://github.com/albblgb/pusnet) provides the reproduced codes of HiDDeN, BalujaNet, wengNet, UDH, and HiNet 
-
 
 ## Dependencies and Installation
 - Python 3.8.13, PyTorch = 1.11.0
