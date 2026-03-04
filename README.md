@@ -50,5 +50,12 @@ The official code for 'On Cover Independent Deep Neural Network Steganography'
 ## Citation
 If you find our paper or code useful for your research, please cite:
 ```
-
+@ARTICLE{11314630,
+  author={Li, Guobiao and Li, Sheng and Luo, Zicong and Qian, Zhenxing and Zhang, Xinpeng},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={On Cover Independent Deep Neural Network Steganography}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-16},
 ```
