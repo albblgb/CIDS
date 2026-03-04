@@ -57,5 +57,6 @@ If you find our paper or code useful for your research, please cite:
   year={2025},
   volume={},
   number={},
-  pages={1-16},
+  pages={1-16}
+}
 ```
